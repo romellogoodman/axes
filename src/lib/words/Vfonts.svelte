@@ -4,8 +4,8 @@
 
 	let config = {
 		text: 'VFonts',
-		color: '#ffffff',
-		background: '#ff0000'
+		color: '#000000',
+		background: '#ffffff'
 	};
 </script>
 
