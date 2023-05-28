@@ -1,5 +1,5 @@
 <script>
-	import Page from '$lib/components/Page.svelte';
+	import Stage from '$lib/components/Stage.svelte';
 	import Word from '$lib/components/Word.svelte';
 
 	let config = {
@@ -9,9 +9,9 @@
 	};
 </script>
 
-<Page {...config}>
+<Stage {...config}>
 	<Word text={config.text} />
-</Page>
+</Stage>
 
 <style lang="scss">
 </style>
