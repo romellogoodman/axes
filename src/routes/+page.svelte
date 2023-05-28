@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import ProgressBar from '$lib/components/ProgressBar.svelte';
 	import Word from '$lib/components/Word.svelte';
-	import Vfonts from '$lib/words/Vfonts.svelte';
+	import Axes from '$lib/words/Axes.svelte';
 	import '$lib/app.scss';
 
 	$: progressColor = '#000000';
@@ -30,7 +30,7 @@
 </script>
 
 <ProgressBar color={progressColor} />
-<Vfonts />
+<Axes />
 <Word {...{ text: 'Foo', background: 'red', color: 'white' }} />
 <Word {...{ text: 'Bar', background: 'blue', color: 'white' }} />
 <Word {...{ text: 'Baz', background: 'yellow', color: 'white' }} />

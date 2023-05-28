@@ -3,7 +3,7 @@
 	import Word from '$lib/components/Word.svelte';
 
 	let config = {
-		text: 'VFonts',
+		text: 'Axes',
 		color: '#000000',
 		background: '#ffffff'
 	};
