@@ -2,13 +2,13 @@
 	import Keyframes from '$lib/components/Keyframes.svelte';
 	import Stage from '$lib/components/Stage.svelte';
 	import Word from '$lib/components/Word.svelte';
-	import fonts from '$lib/fonts.json';
+	import { getFont } from '$lib/utils';
 
 	let config = {
 		background: '#bbbbbb',
 		color: '#ffffff',
 		text: 'blink',
-		font: fonts.inter
+		font: getFont('Epilogue')
 	};
 
 	const keyframes = [

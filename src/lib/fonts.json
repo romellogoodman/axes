@@ -1,111 +1,295 @@
-{
-	"default": { "name": "System Default" },
-	"inter": {
-		"family": "Inter",
-		"filename": "inter/Inter.ttf",
-		"link": "https://rsms.me/inter/",
-		"name": "Inter",
-		"vars": { "wght": [100, 900], "slnt": [-10, 0] }
-	},
-	"konsole": {
-		"family": "Konsole",
-		"filename": "konsole/Konsolev1.1TRIALGX.ttf",
-		"link": "https://www.futurefonts.xyz/elena-schneider/konsole",
-		"name": "Konsole",
-		"vars": { "wght": [100, 1100] }
-	},
-	"metamorBit": {
-		"family": "Metamor Bit",
-		"filename": "metamor-bit/MetamorBit_TrialVF.ttf",
-		"link": "https://www.futurefonts.xyz/masahiro-naruse/metamorbit",
-		"name": "Metamor Bit",
-		"vars": { "slnt": [0, 0], "wdth": [200, 600] }
-	},
-	"pouf": {
-		"family": "Pouf",
-		"filename": "pouf/PoufVar0.4Trial.ttf",
-		"link": "https://www.futurefonts.xyz/linda-hintz/pouf",
-		"name": "Pouf",
-		"vars": { "brth": [10, 100], "wght": [10, 100] }
-	},
-	"ppNeueMachina": {
-		"family": "NeueMachina",
-		"filename": "neue-machina/PPNeueMachina-Variable.ttf",
-		"link": "https://pangrampangram.com/products/neue-machina",
-		"name": "NeueMachina",
-		"vars": { "wdth": [50, 200], "wght": [100, 1000] }
-	},
-	"purpleHaze": {
-		"family": "Purple Haze",
-		"filename": "purple-haze/PurpleHaze-Trial.ttf",
-		"link": "https://www.futurefonts.xyz/fontspectrum/purple-haze",
-		"name": "Purple Haze",
-		"vars": { "wtun": [100, 900], "wtsp": [100, 900] }
-	},
-	"recursive": {
-		"family": "Recursive",
-		"filename": "recursive/Recursive_VF_1.084.ttf",
-		"link": "https://www.recursive.design/",
-		"name": "Recursive",
-		"vars": { "mono": [0, 1], "casl": [0, 1], "wght": [0, 1], "slnt": [0, 1], "crsv": [0, 1] }
-	},
-	"robotoFlex": {
-		"family": "RobotoFlex",
-		"filename": "robotoflex/RobotoFlex.ttf",
-		"link": "https://github.com/googlefonts/roboto-flex",
-		"name": "Roboto Flex",
-		"vars": {
-			"opsz": [8, 144],
-			"wght": [100, 1000],
-			"GRAD": [-200, 150],
-			"wdth": [25, 151],
-			"slnt": [-10, 0],
-			"XOPQ": [27, 175],
-			"YOPQ": [25, 135],
-			"XTRA": [323, 603],
-			"YTUC": [528, 760],
-			"YTLC": [416, 570],
-			"YTAS": [649, 854],
-			"YTDE": [-305, -98],
-			"YTFI": [560, 788]
-		}
-	},
-	"rulik": {
-		"family": "Rulik",
-		"filename": "rulik/RulikTRIALVF.ttf",
-		"link": "https://www.futurefonts.xyz/lewis-mcguffie/rulik",
-		"name": "Rulik",
-		"vars": { "wght": [1, 999] }
-	},
-	"tatraShaded": {
-		"family": "Tatras Shaded",
-		"filename": "tatra-shaded/Tatras-Shaded-Trial-V01.ttf",
-		"link": "https://www.futurefonts.xyz/loveletters/tatras-shaded",
-		"name": "Tatras Shaded",
-		"vars": { "shdw": [10, 50] }
-	},
-	"whoa": {
-		"family": "Whoa",
-		"filename": "whoa/WHOA-Top-v0.4.1.ttf",
-		"link": "https://www.futurefonts.xyz/vectro/whoa",
-		"name": "Whoa",
-		"vars": {
-			"hrzn": [-1000, 1000],
-			"vert": [-1000, 1000],
-			"rota": [-45, 45],
-			"zoom": [-1000, 1000]
-		}
-	},
-	"whoaSpline": {
-		"family": "Whoa",
-		"filename": "whoa/WHOA-Spine-v0.4.1.ttf",
-		"link": "https://www.futurefonts.xyz/vectro/whoa",
-		"name": "Whoa",
-		"vars": {
-			"hrzn": [-1000, 1000],
-			"vert": [-1000, 1000],
-			"rota": [-45, 45],
-			"zoom": [-1000, 1000]
-		}
-	}
-}
+[
+    {
+        "name": "Alvarado",
+        "foundry": "Primary",
+        "website": "http://primary-foundry.com/typefaces/alvarado/",
+        "fontFamily": "Alvarado",
+        "fontFile": "/fonts/Alvarado/AlvaradoVar.ttf",
+        "axes": {
+            "ital": [
+                0,
+                100
+            ],
+            "wght": [
+                0,
+                100
+            ]
+        }
+    },
+    {
+        "name": "Anybody",
+        "foundry": "ETC",
+        "website": "https://etceteratype.co/anybody",
+        "fontFamily": "Anybody",
+        "fontFile": "/fonts/Anybody/Anybody[wdth,wght].ttf",
+        "axes": {
+            "wdth": [
+                50,
+                150
+            ],
+            "wght": [
+                100,
+                900
+            ]
+        }
+    },
+    {
+        "name": "Epilogue",
+        "foundry": "ETC",
+        "website": "https://etceteratype.co/epilogue",
+        "fontFamily": "Epilogue",
+        "fontFile": "/fonts/Epilogue/Epilogue[wght].ttf",
+        "axes": {
+            "wght": [
+                100,
+                900
+            ]
+        }
+    },
+    {
+        "name": "Fraunces",
+        "foundry": "Undercase Type",
+        "website": "https://undercase.xyz/fonts/fraunces",
+        "fontFamily": "Fraunces",
+        "fontFile": "/fonts/Fraunces/Fraunces[SOFT,WONK,opsz,wght].woff2",
+        "axes": {
+            "opsz": [
+                9,
+                144
+            ],
+            "SOFT": [
+                0,
+                100
+            ],
+            "wght": [
+                100,
+                900
+            ],
+            "WONK": [
+                0,
+                1
+            ]
+        }
+    },
+    {
+        "name": "Gluten",
+        "foundry": "ETC",
+        "website": "https://etceteratype.co/gluten",
+        "fontFamily": "Gluten",
+        "fontFile": "/fonts/Gluten/GlutenVariable.ttf",
+        "axes": {
+            "ital": [
+                -1,
+                1
+            ],
+            "wght": [
+                100,
+                900
+            ]
+        }
+    },
+    {
+        "name": "Grandstander",
+        "foundry": "ETC",
+        "website": "https://etceteratype.co/grandstander",
+        "fontFamily": "Grandstanderwghtttf",
+        "fontFile": "/fonts/Grandstander/Grandstander[wght].ttf",
+        "axes": {
+            "wght": [
+                100,
+                900
+            ]
+        }
+    },
+    {
+        "name": "Halibut",
+        "foundry": "Collletttivo",
+        "website": "https://www.collletttivo.it/",
+        "fontFamily": "Halibut-Variable",
+        "fontFile": "/fonts/Halibut/HalibutVF.ttf",
+        "axes": {
+            "wdth": [
+                40,
+                200
+            ],
+            "wght": [
+                40,
+                100
+            ]
+        }
+    },
+    {
+        "name": "Happy Karrik",
+        "foundry": "Primary",
+        "website": "http://primary-foundry.com/typefaces/happy-karrik/",
+        "fontFamily": "'Happy Karrik Variable'",
+        "fontFile": "/fonts/HappyKarrik/HappyKarrikVF.ttf",
+        "axes": {
+            "ital": [
+                0,
+                100
+            ],
+            "srif": [
+                0,
+                100
+            ]
+        }
+    },
+    {
+        "name": "Imbue",
+        "foundry": "ETC",
+        "website": "https://etceteratype.co/imbue",
+        "fontFamily": "Imbue",
+        "fontFile": "/fonts/Imbue/Imbue[opsz,wght].ttf",
+        "axes": {
+            "opsz": [
+                10,
+                100
+            ],
+            "wght": [
+                100,
+                900
+            ]
+        }
+    },
+    {
+        "name": "Montagu Slab",
+        "foundry": "Florian Karsten Typefaces",
+        "website": "https://fonts.floriankarsten.com/montagu-slab",
+        "fontFamily": "Montagu Slab Variable",
+        "fontFile": "/fonts/MontaguSlab/MontaguSlab[opsz,wght].ttf",
+        "axes": {
+            "opsz": [
+                16,
+                144
+            ],
+            "wght": [
+                100,
+                700
+            ]
+        }
+    },
+    {
+        "name": "Movement",
+        "foundry": "Noel Pretorius and María Ramos",
+        "website": "https://nmtype.com/movement/",
+        "fontFamily": "movement",
+        "fontFile": "/fonts/Movement/MovementV.ttf",
+        "axes": {
+            "SPAC": [
+                100,
+                120
+            ],
+            "wght": [
+                100,
+                900
+            ]
+        }
+    },
+    {
+        "name": "OC Highway VAR.2",
+        "foundry": "Otherwhere Collective",
+        "website": "https://otherwherecollective.com/highway-var/",
+        "fontFamily": "OC Highway VAR2",
+        "fontFile": "/fonts/OCHighwayVAR2/OCHighwayVAR2VF.ttf",
+        "axes": {
+            "grad": [
+                -200,
+                0
+            ],
+            "oblq": [
+                0,
+                18
+            ],
+            "wdth": [
+                100,
+                300
+            ]
+        }
+    },
+    {
+        "name": "Sono",
+        "foundry": "ETC",
+        "website": "https://etceteratype.co/sono",
+        "fontFamily": "Sono",
+        "fontFile": "/fonts/Sono/Sono[MONO,wght].ttf",
+        "axes": {
+            "mono": [
+                0,
+                1
+            ],
+            "wght": [
+                200,
+                800
+            ]
+        }
+    },
+    {
+        "name": "Space Grotesk",
+        "foundry": "Florian Karsten Typefaces",
+        "website": "https://fonts.floriankarsten.com/space-grotesk",
+        "fontFamily": "Space Grotesk Variable",
+        "fontFile": "/fonts/SpaceGrotesk/SpaceGrotesk[wght].woff2",
+        "axes": {
+            "wght": [
+                300,
+                700
+            ]
+        }
+    },
+    {
+        "name": "Sprat",
+        "foundry": "Collletttivo",
+        "website": "https://www.collletttivo.it/",
+        "fontFamily": "",
+        "fontFile": "/fonts/Sprat/Sprat-Variable.ttf",
+        "axes": {
+            "wdth": [
+                100,
+                200
+            ],
+            "wght": [
+                10,
+                200
+            ]
+        }
+    },
+    {
+        "name": "Tourney",
+        "foundry": "ETC",
+        "website": "https://etceteratype.co/tourney",
+        "fontFamily": "Tourney",
+        "fontFile": "/fonts/Tourney/TourneyVariable.ttf",
+        "axes": {
+            "ital": [
+                0,
+                1
+            ],
+            "wdth": [
+                100,
+                400
+            ],
+            "wght": [
+                100,
+                900
+            ]
+        }
+    },
+    {
+        "name": "Trispace",
+        "foundry": "ETC",
+        "website": "https://etceteratype.co/trispace",
+        "fontFamily": "Trispace",
+        "fontFile": "/fonts/Trispace/Trispace[wdth,wght].ttf",
+        "axes": {
+            "wdth": [
+                75,
+                125
+            ],
+            "wght": [
+                100,
+                800
+            ]
+        }
+    }
+]

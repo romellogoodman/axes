@@ -1,4 +1,5 @@
 <script>
+	import { getFont } from '$lib/utils';
 	import fonts from '$lib/fonts.json';
 </script>
 
@@ -9,7 +10,7 @@
 		</a>
 	</nav>
 	<h1>Axes Font Server</h1>
-	{#each Object.entries(fonts) as [key, font]}
+	{#each fonts as font}
 		<section>
 			<p>{font.name}</p>
 		</section>

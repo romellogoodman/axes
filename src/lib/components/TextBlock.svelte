@@ -18,5 +18,6 @@
 	.text {
 		max-width: 600px;
 		font-size: 24px;
+		font-family: var(--font-family);
 	}
 </style>

@@ -1,25 +1,18 @@
 <script>
-	import { createStyleTag } from '$lib/utils';
-	import fonts from '$lib/fonts.json';
+	import { createStyleTag, getFont } from '$lib/utils';
 
 	export let text = '';
 	export let background = '#ffffff';
 	export let color = '#000000';
 	export let font = null;
-	const {
-		family: fontFamily,
-		filename: fontFilename,
-		link: fontLink,
-		name: fontName,
-		size: fontSize = '128px'
-	} = font || fonts.default;
+	const { name: fontName, fontFamily, fontFile, website: fontWebsite } = font || getFont('Anybody');
 
 	const fontStyleTag =
-		fontFamily && fontFilename
+		fontFamily && fontFile
 			? createStyleTag(`
 				@font-face {
 					font-family: ${fontFamily};
-					src: url('./fonts/${fontFilename}');
+					src: url('${fontFile}');
 				}
 			`)
 			: '';
@@ -40,8 +33,8 @@
 			<div id="font-info">
 				<p>
 					font:
-					{#if fontLink}
-						<a href={fontLink} target="_blank" rel="noreferrer">{fontName}</a>
+					{#if fontWebsite}
+						<a href={fontWebsite} target="_blank" rel="noreferrer">{fontName}</a>
 					{:else}
 						{fontName}
 					{/if}
