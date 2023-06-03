@@ -1,6 +1,6 @@
 # axes
 
-Axes (fka xptype, vartype and briefly vfonts) is tk. Built on top of [Sveltekit](https://kit.svelte.dev).
+Axes (fka xptype, vartype and briefly vfonts) is a collection of typography interactions and an open-source font server. Built on top of [Sveltekit](https://kit.svelte.dev).
 
 ### Development
 

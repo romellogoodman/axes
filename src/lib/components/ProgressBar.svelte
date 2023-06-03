@@ -1,9 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 
-	export let color = '#000000';
-
-	const setPercent = () => {
+	const updatePercent = () => {
 		const scrollX = document.body.scrollTop || document.documentElement.scrollTop;
 		const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
 		const scrollPercent = scrollX / height;
@@ -12,14 +10,12 @@
 	};
 
 	onMount(() => {
-		setPercent();
+		updatePercent();
 	});
-
-	$: style = `--background: ${color};`;
 </script>
 
-<svelte:window on:scroll={setPercent} />
-<div id="progress-bar" {style} />
+<svelte:window on:scroll={updatePercent} />
+<div id="progress-bar" />
 
 <style lang="scss">
 	#progress-bar {

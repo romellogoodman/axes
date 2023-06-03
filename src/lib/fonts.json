@@ -1,0 +1,111 @@
+{
+	"default": { "name": "System Default" },
+	"inter": {
+		"family": "Inter",
+		"filename": "inter/Inter.ttf",
+		"link": "https://rsms.me/inter/",
+		"name": "Inter",
+		"vars": { "wght": [100, 900], "slnt": [-10, 0] }
+	},
+	"konsole": {
+		"family": "Konsole",
+		"filename": "konsole/Konsolev1.1TRIALGX.ttf",
+		"link": "https://www.futurefonts.xyz/elena-schneider/konsole",
+		"name": "Konsole",
+		"vars": { "wght": [100, 1100] }
+	},
+	"metamorBit": {
+		"family": "Metamor Bit",
+		"filename": "metamor-bit/MetamorBit_TrialVF.ttf",
+		"link": "https://www.futurefonts.xyz/masahiro-naruse/metamorbit",
+		"name": "Metamor Bit",
+		"vars": { "slnt": [0, 0], "wdth": [200, 600] }
+	},
+	"pouf": {
+		"family": "Pouf",
+		"filename": "pouf/PoufVar0.4Trial.ttf",
+		"link": "https://www.futurefonts.xyz/linda-hintz/pouf",
+		"name": "Pouf",
+		"vars": { "brth": [10, 100], "wght": [10, 100] }
+	},
+	"ppNeueMachina": {
+		"family": "NeueMachina",
+		"filename": "neue-machina/PPNeueMachina-Variable.ttf",
+		"link": "https://pangrampangram.com/products/neue-machina",
+		"name": "NeueMachina",
+		"vars": { "wdth": [50, 200], "wght": [100, 1000] }
+	},
+	"purpleHaze": {
+		"family": "Purple Haze",
+		"filename": "purple-haze/PurpleHaze-Trial.ttf",
+		"link": "https://www.futurefonts.xyz/fontspectrum/purple-haze",
+		"name": "Purple Haze",
+		"vars": { "wtun": [100, 900], "wtsp": [100, 900] }
+	},
+	"recursive": {
+		"family": "Recursive",
+		"filename": "recursive/Recursive_VF_1.084.ttf",
+		"link": "https://www.recursive.design/",
+		"name": "Recursive",
+		"vars": { "mono": [0, 1], "casl": [0, 1], "wght": [0, 1], "slnt": [0, 1], "crsv": [0, 1] }
+	},
+	"robotoFlex": {
+		"family": "RobotoFlex",
+		"filename": "robotoflex/RobotoFlex.ttf",
+		"link": "https://github.com/googlefonts/roboto-flex",
+		"name": "Roboto Flex",
+		"vars": {
+			"opsz": [8, 144],
+			"wght": [100, 1000],
+			"GRAD": [-200, 150],
+			"wdth": [25, 151],
+			"slnt": [-10, 0],
+			"XOPQ": [27, 175],
+			"YOPQ": [25, 135],
+			"XTRA": [323, 603],
+			"YTUC": [528, 760],
+			"YTLC": [416, 570],
+			"YTAS": [649, 854],
+			"YTDE": [-305, -98],
+			"YTFI": [560, 788]
+		}
+	},
+	"rulik": {
+		"family": "Rulik",
+		"filename": "rulik/RulikTRIALVF.ttf",
+		"link": "https://www.futurefonts.xyz/lewis-mcguffie/rulik",
+		"name": "Rulik",
+		"vars": { "wght": [1, 999] }
+	},
+	"tatraShaded": {
+		"family": "Tatras Shaded",
+		"filename": "tatra-shaded/Tatras-Shaded-Trial-V01.ttf",
+		"link": "https://www.futurefonts.xyz/loveletters/tatras-shaded",
+		"name": "Tatras Shaded",
+		"vars": { "shdw": [10, 50] }
+	},
+	"whoa": {
+		"family": "Whoa",
+		"filename": "whoa/WHOA-Top-v0.4.1.ttf",
+		"link": "https://www.futurefonts.xyz/vectro/whoa",
+		"name": "Whoa",
+		"vars": {
+			"hrzn": [-1000, 1000],
+			"vert": [-1000, 1000],
+			"rota": [-45, 45],
+			"zoom": [-1000, 1000]
+		}
+	},
+	"whoaSpline": {
+		"family": "Whoa",
+		"filename": "whoa/WHOA-Spine-v0.4.1.ttf",
+		"link": "https://www.futurefonts.xyz/vectro/whoa",
+		"name": "Whoa",
+		"vars": {
+			"hrzn": [-1000, 1000],
+			"vert": [-1000, 1000],
+			"rota": [-45, 45],
+			"zoom": [-1000, 1000]
+		}
+	}
+}

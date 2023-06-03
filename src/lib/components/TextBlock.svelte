@@ -1,17 +1,22 @@
 <script>
 	import Stage from '$lib/components/Stage.svelte';
-	import Word from '$lib/components/Word.svelte';
 
 	let config = {
-		text: 'Axes',
+		background: '#ffffff',
 		color: '#000000',
-		background: '#ffffff'
+		text: 'axes'
 	};
 </script>
 
 <Stage {...config}>
-	<Word text={config.text} />
+	<div class="text">
+		<slot />
+	</div>
 </Stage>
 
 <style lang="scss">
+	.text {
+		max-width: 600px;
+		font-size: 24px;
+	}
 </style>
